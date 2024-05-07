@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.App{
+  width: 50rem;
+  max-width: 50rem;
+  margin: 0 auto;
+}
+
+.dark-mode{
+  background-color: black;
+  color: white;
+}
+
+ul:has(.color-rectangle){
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.color-rectangle{
+  width: 100px;
+  height: 100px;
+  border: 1px solid black;
+  display: grid; 
+  place-items: center;
+}
+
+.beer{
+  display: flex;
+  flex-direction: column;
+}
