@@ -13,7 +13,6 @@ function App() {
   if (isError) {
     return <div>Error...</div>;
   }
-  console.log(products);
 
   return (
     <ThemeArea>

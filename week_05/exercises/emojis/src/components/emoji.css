@@ -1,0 +1,23 @@
+li{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+.emoji-card{
+    border: 1px solid #ccc;
+    display: flex;
+    min-width: 20vw;
+}
+.emoji__symbol{
+    border-right: 1px solid black;
+    width: 1.5rem;
+    display: grid;
+    place-items: center;
+}
+
+.emoji-list{
+    /*5 columns*/
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
